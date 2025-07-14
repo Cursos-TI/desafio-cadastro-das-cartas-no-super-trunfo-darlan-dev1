@@ -59,7 +59,7 @@ int main() {
     scanf("%s", &estado2);
 
     printf("Código da carta (ex: A01)");
-    scanf("%s", &codigo2);
+    scanf("%s", codigo2);
 
     printf("Nome da cidade: ");
     scanf(" %[^\n]", nomeCidade2);
@@ -73,10 +73,10 @@ int main() {
     printf("PIB (em bilhões de reais): ");
     scanf("%f", &pib2);
 
-    print("Números de Pontos Turísticos: ");
+    printf("Números de Pontos Turísticos: ");
     scanf("%d", &pontosTuristicos2);
 
-    // Exibbição dos dados da carta 1
+    // Exibição dos dados da carta 1
 
     printf("\nCarta 1:\n");
     printf("Estado: %c\n", estado1);
